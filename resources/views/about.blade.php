@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Title</title>
+    <title>About PAge</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -14,8 +14,8 @@
 
 <body>
     <header>
-        <h1>{{$page_title}} {{$class_number}}</h1>
-
+        <!-- place navbar here -->
+        <h1>About Me</h1>
         <nav class="nav justify-content-center  ">
             <a class="nav-link active" href="/" aria-current="page">Home</a>
             <a class="nav-link" href="/">Link</a>
