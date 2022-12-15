@@ -21,8 +21,10 @@
             <a class="nav-link" href="/about">About</a>
         </nav>
         <h2>{{$description}}</h2>
-
-        <h3>{{$students}}</h3>
+        <br>
+        @foreach($students as $student)
+        <h3>{{$student}}</h3>
+        @endforeach
     </header>
     <main>
 
