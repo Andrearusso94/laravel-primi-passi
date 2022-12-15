@@ -28,5 +28,15 @@ Route::get('/about', function () {
 });
 
 Route::get('/link', function () {
-    return view('link');
+    $link = [
+        'page_title' => 'Link classe 72',
+        'description' => 'Lorem',
+        'students' => [
+            'Andrea',
+            'Giordana',
+            'Fra',
+        ],
+        'teachers' => [],
+    ];
+    return view('link', $link);
 });

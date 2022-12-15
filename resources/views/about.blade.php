@@ -18,7 +18,7 @@
         <h1>About Me</h1>
         <nav class="nav justify-content-center  ">
             <a class="nav-link active" href="/" aria-current="page">Home</a>
-            <a class="nav-link" href="/">Link</a>
+            <a class="nav-link" href="/link">Link</a>
             <a class="nav-link" href="/about">About</a>
         </nav>
     </header>

@@ -14,13 +14,15 @@
 
 <body>
     <header>
-        <h1>{{$page_title}} {{$class_number}}</h1>
-
+        <h1>{{$page_title}}</h1>
         <nav class="nav justify-content-center  ">
             <a class="nav-link active" href="/" aria-current="page">Home</a>
             <a class="nav-link" href="/link">Link</a>
             <a class="nav-link" href="/about">About</a>
         </nav>
+        <h2>{{$description}}</h2>
+
+        <h3>{{$students}}</h3>
     </header>
     <main>
 
